@@ -39,5 +39,5 @@ function create_post_type_html5()
         ) // Add Category and Post Tags support
     ));
 }
-add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
+// add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
 

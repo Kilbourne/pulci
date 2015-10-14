@@ -1,3 +1,4 @@
+/*
 if (function_exists('add_theme_support'))
 {
     add_image_size('large', 700, '', true); // Large Thumbnail
@@ -5,8 +6,8 @@ if (function_exists('add_theme_support'))
     add_image_size('small', 120, '', true); // Small Thumbnail
     add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 }
-
-add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
+*/
+// add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
 
 function bones_custom_image_sizes( $sizes ) {
     return array_merge( $sizes, array(

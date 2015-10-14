@@ -10,4 +10,4 @@ function html5wp_pagination()
         'total' => $wp_query->max_num_pages
     ));
 }
-add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
+// add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination

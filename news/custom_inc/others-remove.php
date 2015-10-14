@@ -1,16 +1,16 @@
 // Remove Actions
-remove_action('wp_head', 'feed_links', 2); // Display the links to the general feeds: Post and Comment Feed
+//remove_action('wp_head', 'feed_links', 2); // Display the links to the general feeds: Post and Comment Feed
 
-add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
-add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
-add_filter( 'wp_head', 'bones_remove_wp_widget_recent_comments_style', 1 ); // remove pesky injected css for recent comments widget
-add_filter( 'gallery_style', 'bones_gallery_style' );   // clean up gallery output in wp
-add_filter( 'the_content', 'bones_filter_ptags_on_images' ); // cleaning up random code around images
-add_filter('post_thumbnail_html', 'remove_width_attribute', 10 ); // Remove width and height dynamic attributes to post images
-add_filter('image_send_to_editor', 'remove_width_attribute', 10 ); // Remove width and height dynamic attributes to post images
-add_filter('the_category', 'remove_category_rel_from_category_list'); // Remove invalid rel attribute
+//add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
+//add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
+//add_filter( 'wp_head', 'bones_remove_wp_widget_recent_comments_style', 1 ); // remove pesky injected css for recent comments widget
+//add_filter( 'gallery_style', 'bones_gallery_style' );   // clean up gallery output in wp
+//add_filter( 'the_content', 'bones_filter_ptags_on_images' ); // cleaning up random code around images
+//add_filter('post_thumbnail_html', 'remove_width_attribute', 10 ); // Remove width and height dynamic attributes to post images
+//add_filter('image_send_to_editor', 'remove_width_attribute', 10 ); // Remove width and height dynamic attributes to post images
+//add_filter('the_category', 'remove_category_rel_from_category_list'); // Remove invalid rel attribute
 
-add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
+//add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 
 // Remove Admin bar
 function remove_admin_bar()

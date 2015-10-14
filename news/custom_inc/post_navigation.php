@@ -1,4 +1,5 @@
-// Post navigation, a bare bones implementation
+// Post navigation, a bare bones implementationù
+/*
 if ( !function_exists( 'voidx_post_navigation' ) ) : function voidx_post_navigation() {
   ?><nav class="nav-posts" role="navigation">
     <div class="nav-links">
@@ -14,3 +15,4 @@ if ( !function_exists( 'voidx_post_navigation' ) ) : function voidx_post_navigat
     </div>
   </nav><?php
 } endif;
+*/

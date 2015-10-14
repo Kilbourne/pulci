@@ -1,5 +1,5 @@
 // ==== Infinite Scrolling ==== //
-
+/*
 $script_vars_pg8 = '';
   if ( VOIDX_SCRIPTS_PAGELOAD && ( is_archive() || is_home() || is_search() ) ) {
     $script_name .= '-pg8';
@@ -17,7 +17,7 @@ $script_vars_pg8 = '';
       'nextLink'    => next_posts( $max, false )
     );
   } // end PG8
-
+*/
 
 
 

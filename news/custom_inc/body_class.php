@@ -15,4 +15,4 @@ function add_slug_to_body_class($classes)
 
     return $classes;
 }
-add_filter('body_class', 'add_slug_to_body_class'); // Add slug to body class (Starkers build)
+// add_filter('body_class', 'add_slug_to_body_class'); // Add slug to body class (Starkers build)
