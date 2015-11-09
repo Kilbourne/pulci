@@ -11,5 +11,11 @@
   "newcap": true,
   "noarg": true,
   "node": true,
+  "undef": true,
+  "supernew": true,
+  "globals": {
+        "_": true,
+        "jQuery": true
+  }
   "strict": false
 }
