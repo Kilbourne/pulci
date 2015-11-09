@@ -6,6 +6,15 @@
   ],
   "license": "MIT",
   "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".sass-cache",
+    "build"
+  ],
   "dependencies": {
     "bootstrap-sass": "3.3.5"
   },
